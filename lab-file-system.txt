@@ -87,8 +87,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
-
+/Users/student/MTEC1003/foo/bar/baz/qux
  
 ==========
 11. Type:
@@ -98,8 +97,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
-
+/Users/student/MTEC1003
 
 ==========
 12. Type:
@@ -110,8 +108,8 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
-
-
+total 0
+drwxr-xr-x  2 student  staff   68 Jan 29 16:41 Food
 
 ==========
 13. Type:
@@ -121,7 +119,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Users/student
 
 
 ==========
@@ -132,8 +130,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
-
+/Volumes
 
 ==========
 15. Type:
@@ -143,7 +140,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Volumes
 
 
 ==========
@@ -155,7 +152,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/Users/student/MTEC1003
 
 ==========
 16. Type:
@@ -164,13 +161,13 @@ $ hostname
 
 Copy and paste the output into the space below.
 ----------
-
+ent-v314-007.local
 
 
 ==========
 17a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
-
+$ pwd
 
 
 ==========
@@ -180,8 +177,6 @@ cd ~/mtec1002
 
 Otherwise skip this question/step!
 ----------
-
-
 
 ==========
 18. Create the following directories, with each one inside each other.  The first one, pinapple, is the inner most:
@@ -193,7 +188,7 @@ lemon
 
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
-
+mkdir -p Pineapple/Orange/Strawberry/Lemon
 
 
 ==========
@@ -201,7 +196,7 @@ Use only one command to make all of these new directories.  Write what command y
 
 Write the command you used to create the directory below:
 ----------
-
+mkdir Aardvark
 
 
 ==========
@@ -209,8 +204,7 @@ Write the command you used to create the directory below:
 
 What is the modified date of the aardvark directory?
 ----------
-
-
+Jan 29 16:52 
 
 ==========
 21. Make 3 directories nested within each other:
@@ -221,7 +215,7 @@ What is the modified date of the aardvark directory?
 
 What command did you use?
 ----------
-
+$ mkdir -p foo/bar/baz
 
 
 ==========
@@ -229,7 +223,7 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd foo/bar/baz
 
 
 ==========
@@ -237,44 +231,45 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd ../..
 
 ==========
 24. What command is used to delete empty directories?
 ----------
-
+rmdir
 
 
 ==========
 25. What command is used to print out your current working directory?
 ----------
-
+pwd
 
 
 ==========
 26. What flag do I pass to ls to print out all files?
 ----------
-
+ls -a
 
 
 ==========
 27. What's the shortcut for home directory?
 ----------
-
+~
 
 
 ==========
 28. What's a pathname?
 ----------
-
+the general form of the name of a file 
 
 
 ==========
 29. What's a directory?
 ----------
-
+cataloging structure on a file system that references other files
 
 
 ==========
 30. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+/Users/student/Downloads
